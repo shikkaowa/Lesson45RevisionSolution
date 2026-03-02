@@ -50,8 +50,8 @@ void test01() {
 void test02() {
 	int array[]{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 	int size = 10;
-	int a = 9;
-	int b = 0;
+	int a = 0;
+	int b = 9;
 	int expected[]{ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
 	print(array, expected, size, a, b, "test02");
 }
